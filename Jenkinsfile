@@ -6,7 +6,8 @@ pipeline{
                 echo 'build'
 
             }
-        stage ('test') {
+        }
+        stage('test') {
             steps{
                 echo "test"
             }
@@ -17,7 +18,6 @@ pipeline{
             }
         }
 
-        }
 
     }
 }
