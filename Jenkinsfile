@@ -37,7 +37,7 @@ pipeline{
         stage('test') {
             steps{
                 echo "test"
-                echo ${params.PERSON}
+                echo "${params.PERSON}"
             }
         }
         stage('Deploy'){
